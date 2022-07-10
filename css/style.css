@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.calendario a {
+    color: #2F497B;
+}
+
+.section-calendario{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario{
+    margin: 40px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.calendario table{
+    font-size: 30px;
+}
+
+.calendario .mes{
+    display: none;
+}
+
+.calendario td{
+    padding: 10px;
+    color: #000;
+}
+
+.calendario .mes_title {
+    color: white;
+}
+
+.calendario #volta, .calendario #vai{
+    padding: 14px 18px;
+    font-size: 25px;
+    text-decoration: none;
+    /* background: linear-gradient(to bottom, #fff, #ccc 130%); */
+    position: absolute;
+    color: #2F497B;
+}
+
+.calendario #volta {
+    left: 5px;
+
+}
+
+.calendario #vai {
+    right: 5px;
+}
+
+.calendario td.ensaio{
+    background-color: red;
+    color: #ffffff;
+}
+
+.calendario .dia-semana{
+    background-color: #ffffff;
+    color: #2F497B;
+}
